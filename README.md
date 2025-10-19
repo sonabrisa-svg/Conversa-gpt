@@ -1,41 +1,69 @@
-# 🧠 Conversa-GPT
+# Conversa GPT — Central de Resumos e Materiais
 
-**Repositório de conversas, templates e interações com IA generativa (ChatGPT).**
+> Repositório para organizar links públicos de conversas, resumos executivos, roteiros e artefatos relacionados às interações no ChatGPT.
 
-Este repositório tem como objetivo organizar, arquivar e transformar interações realizadas via ChatGPT em recursos reutilizáveis — como resumos, scripts, templates, prompts, análises e documentos prontos para uso profissional, acadêmico ou pessoal.
-
----
-
-## 📚 Conteúdo do Repositório
-
-| Tipo de conteúdo      | Descrição                                                                 |
-|-----------------------|---------------------------------------------------------------------------|
-| 📝 Conversas salvas    | Exportações diretas do ChatGPT com análises, respostas e instruções detalhadas |
-| 📄 Templates           | Modelos de documentos criados com auxílio da IA                          |
-| 🧩 Scripts & prompts   | Conjuntos de instruções otimizadas para usos recorrentes com ChatGPT     |
-| 📊 Relatórios & PDFs   | Arquivos gerados para fins acadêmicos, consultivos ou administrativos     |
+[⬇️ Ir direto para “Como usar”](#como-usar) • [📁 Estrutura](#estrutura-sugerida) • [🧭 Roadmap](#roadmap) • [🤝 Contribuição](#contribuição)
 
 ---
 
-## 🔗 Conversas Destacadas
-
-- [💬 ChatGPT - Planejamento de conteúdo e automações](https://chatgpt.com/share/68f4f92b-4f34-8010-b52a-5fae9afb954b)
+## Sumário
+- [Visão geral](#visão-geral)
+- [Links principais](#links-principais)
+- [Como usar](#como-usar)
+- [Estrutura sugerida](#estrutura-sugerida)
+- [Padrão de commits](#padrão-de-commits)
+- [Roadmap](#roadmap)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
 
 ---
 
-## 🚧 Status do Projeto
+## Visão geral
+Este repositório serve como **hub** para:
+- Centralizar **links públicos** de conversas (ChatGPT Share);
+- Manter **resumos executivos** com índice clicável;
+- Guardar **modelos** (templates) de ofícios, relatórios, planos e posts;
+- Versionar ajustes e histórico das entregas.
 
-Este repositório está em desenvolvimento inicial. Em breve será estruturado da seguinte forma:
+> Observação: inicialmente o repositório foi criado com um commit e um README simples com link de conversa pública do ChatGPT. Planejamos expandir com resumos e arquivos auxiliares. 
 
-```plaintext
-📁 Conversas/
-   ├── conversa_estratégia_mkt.md
-   ├── planejamento_treino_ai.txt
-📁 Templates/
-   ├── modelo_oficio_academico.md
-   ├── estrutura_post_instagram.txt
-📁 Relatorios/
-   ├── relatorio_nutricional_outubro2025.pdf
-📁 Prompts/
-   ├── prompt_juridico_defesa.txt
-   └── prompt_extensao_academica.txt
+## Links principais
+- 🔗 Conversa pública principal: https://chatgpt.com/share/68f4f92b-4f34-8010-b52a-5fae9afb954b  
+  _(adicione aqui outros links de “Share” conforme forem sendo gerados)_
+
+## Como usar
+1. **Gerar link público da conversa** (ChatGPT → Share) e colar em **Links principais**.
+2. Criar um **resumo executivo** em `resumos/YYYY-MM-DD-assunto.md` com:
+   - Objetivo em 2–3 linhas;
+   - Índice clicável;
+   - Tópicos/decisões/entregáveis;
+   - Próximos passos e pendências.
+3. Se houver arquivos (PDFs, imagens, planilhas), salve-os em `docs/` e referencie no resumo.
+4. Faça commit com mensagem no padrão (ver abaixo).
+
+### Modelo mínimo de resumo (`resumos/AAAA-MM-DD-assunto.md`)
+```md
+# Título do resumo — AAAA-MM-DD
+
+## Índice
+- [Contexto](#contexto)
+- [Entregas](#entregas)
+- [Decisões](#decisões)
+- [Pendências](#pendências)
+- [Links](#links)
+
+## Contexto
+...
+
+## Entregas
+- ...
+
+## Decisões
+- ...
+
+## Pendências
+- ...
+
+## Links
+- Share ChatGPT: ...
+- Arquivos: ...
